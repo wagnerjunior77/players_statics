@@ -1,0 +1,6 @@
+1. Receber dados do jogador (nome, posição e atributos)
+    1.1 Fazer a parte específica para goleiros
+    1.2 Adicionar mais de uma posição 
+2. Gerar um gráfico de radar com os atributos do jogador (opcional) - OK
+3. Passar os dados recebidos para uma planilha - OK
+4. Utilizar uma ferramenta de visualização (Tableau ou Power BI) para fazer um layout de gráficos interativos com os dados da planilha
