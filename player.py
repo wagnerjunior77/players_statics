@@ -1,5 +1,5 @@
 # Libraries
-import matplotlib.pyplot as plt
+
 import pandas as pd
 import openpyxl
 
@@ -55,8 +55,11 @@ f'ATT': [values[0]],
 f'TEC': [values[1]],
 f'TAC': [values[2]], 
 f'DEF': [values[3]],
-f'CRE': [values[4]]
+f'CRE': [values[4]],
+f'OVERALL': overall
 })
+
+
 
 
 #excel path
@@ -72,7 +75,7 @@ ultima_linha = ws.max_row+1
 # Itera pelas linhas do DataFrame
 for i, x in enumerate(df.values[0], 1):
     
-    ws.cell(column=i, row = ultima_linha, value=str(x))
+    ws.cell(column=i, row = ultima_linha, value=x)
     
     
     
