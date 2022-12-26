@@ -5,3 +5,12 @@
 2. Gerar um gráfico de radar com os atributos do jogador (opcional) - OK
 3. Passar os dados recebidos para uma planilha - OK
 4. Utilizar uma ferramenta de visualização (Tableau ou Power BI) para fazer um layout de gráficos interativos com os dados da planilha
+
+(English)
+
+1. Receive player data (name, position and attributes)
+    1.1 Make the specific part for goalkeepers
+    1.2 Add more than one position
+2. Generate a radar chart with player attributes (optional) - OK
+3. Pass the received data to a spreadsheet - OK
+4. Use a visualization tool (Tableau or Power BI) to make an interactive chart layout with the worksheet data
